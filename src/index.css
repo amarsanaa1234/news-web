@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.world_btn{
+  @apply w-20 h-10 flex justify-center items-center
+}
