@@ -25,7 +25,7 @@ function App() {
   
   
   const FetchData =async (state) => {
-        await axios.get(`https://newsapi.org/v2/${state}&apiKey=de013d61d2c6460caba4d302f75d7f9b`)
+        await axios.get(`https://newsapi.org/v2/${state}&apiKey=0aa5c454eccc42d480476ef164919f7f`)
         .then((res) => setData(res.data.articles))
     }
 
